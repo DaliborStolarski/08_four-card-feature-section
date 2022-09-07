@@ -1,0 +1,218 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+font-family: 'Poppins', sans-serif;
+
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style>
+
+*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 50px 150px;
+}
+
+/* container-top */
+
+.container-row-top h1 {
+  text-align: center;
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  font-size: 30px;
+}
+
+h1 span {
+  font-weight: 600;
+}
+
+.container-row-top p {
+  text-align: center;
+  font-size: 12px;
+  color: hsl(229, 6%, 66%);
+  margin: 0 270px;
+}
+
+/* container-bottom */
+
+.container-row-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.container-row-bottom h5 {
+  font-size: 15px;
+  color: hsl(234, 12%, 34%);
+}
+
+.container-row-bottom p {
+  font-size: 10px;
+  color: hsl(229, 6%, 66%);
+}
+
+.container-row-bottom-left, .container-row-bottom-right {
+  margin-top: 150px;
+}
+
+.container-row-bottom-middle {
+  margin: 20px;
+}
+
+.container-row-bottom-left, .team-builder, .karma, .container-row-bottom-right {
+  height: 200px;
+  width: 280px;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-radius: 5px;
+  box-shadow: 20px 20px 50px hsl(0, 0%, 80%);
+}
+
+.container-row-bottom-left p {
+  margin-left: 25px;
+  margin-right: 35px;
+  margin-top: -12px;
+}
+
+.container-row-bottom-left h5 {
+  margin-left: 25px;
+}
+
+.container-row-bottom-left {
+  color: hsl(180, 62%, 55%);
+}
+
+.team-builder p {
+  margin-left: 25px;
+  margin-right: 35px;
+  margin-top: -12px;
+}
+
+.team-builder h5 {
+  margin-left: 25px;
+}
+
+.team-builder {
+  color: hsl(0, 78%, 62%);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.karma p {
+  margin-left: 25px;
+  margin-right: 35px;
+  margin-top: -12px;
+}
+
+.karma h5 {
+  margin-left: 25px;
+}
+
+.karma {
+  color: hsl(34, 97%, 64%);
+}
+
+.container-row-bottom-right p {
+  margin-left: 25px;
+  margin-right: 35px;
+  margin-top: -12px;
+}
+.container-row-bottom-right h5 {
+  margin-left: 25px;
+}
+
+.container-row-bottom-right {
+  color: hsl(212, 86%, 64%);
+}
+
+img {
+  margin-left: 210px;
+  margin-top: 35px;
+  height: auto;
+  width: auto;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  margin-top: 20px;
+}
+
+@media (max-width: 768px)  {
+
+  body {
+    margin: 50px 10px;
+  }
+
+  .container-row-top h1 {
+    font-size: 22px;
+  }
+
+  .container-row-top p {
+    margin: 0 0 50px 0;
+  }
+
+  .container-row-bottom-left {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .team-builder {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .karma {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .container-row-bottom-right {
+    margin-top: 0;
+  }
+
+  .attribution {
+    font-size: 10px;
+  }
+
+}
