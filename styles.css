@@ -78,7 +78,7 @@ h1 span {
 
 }
 
-.container-row-bottom h5 {
+.container-row-bottom h2 {
   font-size: 15px;
   color: hsl(234, 12%, 34%);
 }
@@ -111,7 +111,7 @@ h1 span {
   margin-top: -12px;
 }
 
-.container-row-bottom-left h5 {
+.container-row-bottom-left h2 {
   margin-left: 25px;
 }
 
@@ -125,7 +125,7 @@ h1 span {
   margin-top: -12px;
 }
 
-.team-builder h5 {
+.team-builder h2 {
   margin-left: 25px;
 }
 
@@ -141,7 +141,7 @@ h1 span {
   margin-top: -12px;
 }
 
-.karma h5 {
+.karma h2 {
   margin-left: 25px;
 }
 
@@ -154,7 +154,7 @@ h1 span {
   margin-right: 35px;
   margin-top: -12px;
 }
-.container-row-bottom-right h5 {
+.container-row-bottom-right h2 {
   margin-left: 25px;
 }
 
