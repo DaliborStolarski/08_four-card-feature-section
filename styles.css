@@ -102,7 +102,7 @@ h1 span {
   border-top-style: solid;
   border-top-width: medium;
   border-radius: 5px;
-  box-shadow: 20px 20px 50px hsl(0, 0%, 80%);
+  box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
 }
 
 .container-row-bottom-left p {
